@@ -197,7 +197,7 @@ def update_graph(n_clicks,ticker,strat_type,expiry,rate):
 
      ##############################################
      API_BASE_URL='https://sandbox.tradier.com/v1/' #Developers Sandbox
-     ACCESS_TOKEN=open(r'C:\Users\abose\OneDrive - Lido Advisors, LLC\Desktop\Lido\OptionsWhatIfs\TAPIT.txt').read()
+     ACCESS_TOKEN=open(r'TAPIT.txt').read()
      quotes_url='{}markets/quotes'.format(API_BASE_URL)
      options_url='{}markets/options/chains'.format(API_BASE_URL)
      expiry_url='{}markets/options/expirations'.format(API_BASE_URL)
